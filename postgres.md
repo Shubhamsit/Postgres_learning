@@ -1,5 +1,8 @@
 ###  Commands
 
+docker exec -it postgres_container  psql -U shubham -d testdb
+
+
 
 
 \l -> list of databases
