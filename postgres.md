@@ -5,6 +5,15 @@ docker exec -it postgres_container  psql -U shubham -d testdb
 
 
 
+
+
+
+\dt ->  List all tables in current schema
+\d table_name  -> Describe a table (schema of table)
+\dn+  -> Show schema + roles (ownership)
+
+
+
 \l -> list of databases
 
 -> select datname from pg_database;  (list datbase)
@@ -12,6 +21,8 @@ docker exec -it postgres_container  psql -U shubham -d testdb
 ### create database
 
 -> select datname from pg_database;
+
+postgres=# create database bank;
 
 ## change database
 
